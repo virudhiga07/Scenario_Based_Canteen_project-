@@ -1,10 +1,7 @@
-# virudhigakv — College Canteen Ordering and Sales Analysis System
-
-**Scenario 3 · Register numbers 3, 33, 63, 93**
+virudhigakv — College Canteen Ordering and Sales Analysis System
 
 A complete canteen operator application for maintaining a menu, recording multi-item orders, calculating bills, updating stock, and understanding sales. It includes a browser interface, a runnable Java backend, an SQL database model, and a Python analysis pipeline.
 
-Fill in your own name, register number, institution and course in [the SRS](docs/SRS.md) before submitting to your individual GitHub repository.
 
 ## What the application does
 
@@ -137,7 +134,7 @@ tests/                Backend integration checks
 
 ## GitHub submission checklist
 
-Create an individual repository and upload this project source. Do not upload generated dependencies, runtime databases, secrets or build caches; `.gitignore` excludes them. The intentionally provided `samples/canteen-demo.db` contains only synthetic data and is safe to include.
+
 
 | Required deliverable | Included location |
 | --- | --- |
