@@ -1,0 +1,7 @@
+{
+  "id": "7b8c26ad-b71b-45b4-b2c1-37eac0ece977",
+  "customer_name": "Ananya",
+  "order_type": "Dine-in",
+  "payment_method": "UPI",
+  "items": [{"item_id": 1, "quantity": 2}, {"item_id": 4, "quantity": 1}]
+}

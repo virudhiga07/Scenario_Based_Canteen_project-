@@ -1,0 +1,22 @@
+{
+  "source": "samples/canteen-demo.db",
+  "preprocessing": {
+    "input_rows": 416,
+    "valid_rows": 416,
+    "exact_duplicates_removed": 0,
+    "rejected_rows": 0,
+    "reporting_timezone": "Asia/Kolkata"
+  },
+  "selection": {
+    "start": null,
+    "end": null,
+    "exclude_demo": false
+  },
+  "selected_rows": 416,
+  "orders": 219,
+  "units_sold": 671,
+  "revenue_paise": 2978000,
+  "revenue_inr": 29780.0,
+  "demo_orders": 219,
+  "most_popular_item": "Masala Chai"
+}

@@ -1,0 +1,26 @@
+# Dependencies and generated application output
+node_modules/
+dist/
+java/lib/
+java/build/
+java/target/
+# Runtime databases and local analysis output
+data/
+analysis/output/
+*.db-wal
+*.db-shm
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+# Local configuration, credentials and hosting tools
+.env
+.env.*
+!.env.example
+.dev.vars*
+.wrangler/
+.sites-runtime/
+outputs/
+.DS_Store
+
+.local/

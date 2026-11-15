@@ -1,0 +1,10 @@
+{
+  "id": "f2ecbd44-cb2c-4071-8e30-120b265684ff",
+  "customer_name": "Student 33",
+  "order_type": "Dine-in",
+  "payment_method": "Cash",
+  "items": [
+    { "item_id": 1, "quantity": 2 },
+    { "item_id": 4, "quantity": 1 }
+  ]
+}

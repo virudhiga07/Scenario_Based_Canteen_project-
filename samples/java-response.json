@@ -1,0 +1,25 @@
+{
+  "order": {
+    "id": "7b8c26ad-b71b-45b4-b2c1-37eac0ece977",
+    "customer_name": "Ananya",
+    "order_type": "Dine-in",
+    "payment_method": "UPI",
+    "created_at": "2026-11-15T10:19:44.721837112Z",
+    "total_paise": 13500,
+    "is_demo": 0,
+    "items": [
+      {
+        "item_id": 1,
+        "item_name": "Masala Dosa",
+        "quantity": 2,
+        "unit_price_paise": 6000
+      },
+      {
+        "item_id": 4,
+        "item_name": "Masala Chai",
+        "quantity": 1,
+        "unit_price_paise": 1500
+      }
+    ]
+  }
+}

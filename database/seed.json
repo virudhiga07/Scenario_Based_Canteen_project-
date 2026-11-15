@@ -1,0 +1,5031 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Masala Dosa",
+      "category": "Breakfast",
+      "description": "Crisp rice crepe, potato masala & coconut chutney",
+      "price_paise": 6000,
+      "stock": 32,
+      "image": "dosa",
+      "active": 1
+    },
+    {
+      "id": 2,
+      "name": "Samosa",
+      "category": "Snacks",
+      "description": "Golden pastry with spiced potato filling",
+      "price_paise": 2000,
+      "stock": 8,
+      "image": "samosa",
+      "active": 1
+    },
+    {
+      "id": 3,
+      "name": "Veg Fried Rice",
+      "category": "Meals",
+      "description": "Wok-tossed rice with seasonal vegetables",
+      "price_paise": 8000,
+      "stock": 24,
+      "image": "rice",
+      "active": 1
+    },
+    {
+      "id": 4,
+      "name": "Masala Chai",
+      "category": "Beverages",
+      "description": "Freshly brewed tea with warming spices",
+      "price_paise": 1500,
+      "stock": 65,
+      "image": "chai",
+      "active": 1
+    },
+    {
+      "id": 5,
+      "name": "Idli Sambar",
+      "category": "Breakfast",
+      "description": "Three soft idlis with sambar & chutney",
+      "price_paise": 4000,
+      "stock": 18,
+      "image": "idli",
+      "active": 1
+    },
+    {
+      "id": 6,
+      "name": "Paneer Wrap",
+      "category": "Snacks",
+      "description": "Spiced paneer, crisp vegetables & mint sauce",
+      "price_paise": 7000,
+      "stock": 6,
+      "image": "wrap",
+      "active": 1
+    },
+    {
+      "id": 7,
+      "name": "Veg Thali",
+      "category": "Meals",
+      "description": "Rice, roti, dal, seasonal sabzi & curd",
+      "price_paise": 10000,
+      "stock": 20,
+      "image": "thali",
+      "active": 1
+    },
+    {
+      "id": 8,
+      "name": "Cold Coffee",
+      "category": "Beverages",
+      "description": "Chilled coffee blended with milk",
+      "price_paise": 5000,
+      "stock": 28,
+      "image": "coffee",
+      "active": 1
+    },
+    {
+      "id": 9,
+      "name": "Veg Sandwich",
+      "category": "Snacks",
+      "description": "Toasted bread, crunchy vegetables & chutney",
+      "price_paise": 4500,
+      "stock": 36,
+      "image": "sandwich",
+      "active": 1
+    },
+    {
+      "id": 10,
+      "name": "Fresh Lime Soda",
+      "category": "Beverages",
+      "description": "Fresh lime, sparkling water & a pinch of salt",
+      "price_paise": 3000,
+      "stock": 0,
+      "image": "lime",
+      "active": 1
+    },
+    {
+      "id": 11,
+      "name": "Poha",
+      "category": "Breakfast",
+      "description": "Light flattened rice with peanuts & curry leaves",
+      "price_paise": 3500,
+      "stock": 22,
+      "image": "poha",
+      "active": 1
+    },
+    {
+      "id": 12,
+      "name": "Gulab Jamun",
+      "category": "Desserts",
+      "description": "Two warm milk dumplings in fragrant syrup",
+      "price_paise": 3000,
+      "stock": 16,
+      "image": "dessert",
+      "active": 1
+    }
+  ],
+  "orders": [
+    {
+      "id": "cd1b2186-9fdf-59b2-ac9e-5623819f8151",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T03:00:00Z",
+      "total_paise": 13000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "4045eb0d-ff70-5c8e-b798-5c358a1a3ba7",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-09T03:08:00Z",
+      "total_paise": 29000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 10,
+          "item_name": "Fresh Lime Soda",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        },
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 2,
+          "unit_price_paise": 3500
+        }
+      ]
+    },
+    {
+      "id": "e49491a8-adcd-5335-8358-b01176f368af",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T03:16:00Z",
+      "total_paise": 39000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 4,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 1,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "d8dc0881-0b67-55b3-ae76-1089601deb66",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-09T03:24:00Z",
+      "total_paise": 17000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "5ebcc24b-3ac9-50dc-b3c2-feef695a82a3",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T03:32:00Z",
+      "total_paise": 9000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        }
+      ]
+    },
+    {
+      "id": "10702b3e-090d-55e7-91e2-cf0824b9d1b0",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-09T03:40:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "797e93bd-b579-52e4-a462-4e9b632c3481",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T03:48:00Z",
+      "total_paise": 20000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 1,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "ad6fb2f0-c048-5335-80c5-9354c2f94498",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-09T03:56:00Z",
+      "total_paise": 19000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "fed666aa-c1e2-5da1-ad2f-672d0af253ec",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T04:04:00Z",
+      "total_paise": 10000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 1,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "4538cb69-230e-5e23-a844-f62ece5936d4",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-09T04:12:00Z",
+      "total_paise": 9500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        }
+      ]
+    },
+    {
+      "id": "fc93a817-592a-59c8-8da2-23ce5c8b9468",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T04:20:00Z",
+      "total_paise": 12000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "00d8877b-9d15-59b6-8aac-ce743c31a700",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-09T04:28:00Z",
+      "total_paise": 12000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "927eae18-e0de-5d32-a6d6-151d1a96aeb4",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T04:36:00Z",
+      "total_paise": 8000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 4,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "89560bcf-1e48-55e6-b0ba-f9000d50205b",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-09T04:44:00Z",
+      "total_paise": 18000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "0b5eae63-2744-58f3-9f0b-7e3707589281",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T04:52:00Z",
+      "total_paise": 15000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "3b476d4b-ea4a-57d7-959d-6b840a685274",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-09T05:00:00Z",
+      "total_paise": 7000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 1,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "6aaa5e0e-7fa8-5886-92b0-744053e789a1",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T05:08:00Z",
+      "total_paise": 7000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 2,
+          "unit_price_paise": 3500
+        }
+      ]
+    },
+    {
+      "id": "484aebef-0170-5931-987b-d5d06772af84",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-09T05:16:00Z",
+      "total_paise": 40500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "385c3097-2b3d-5e8b-a9e8-e9e57303994e",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T05:24:00Z",
+      "total_paise": 20000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "95f9fd64-9f7c-5bcb-ab81-3812dc3c5e5c",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-09T05:32:00Z",
+      "total_paise": 23000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 2,
+          "unit_price_paise": 3500
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "c26d53e3-4bbb-525e-ad3a-228e83057f1f",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T05:40:00Z",
+      "total_paise": 15000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "2adc97b8-b2eb-5248-93ed-cd2b823ee49c",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-09T05:48:00Z",
+      "total_paise": 10000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        }
+      ]
+    },
+    {
+      "id": "8c0095bc-7d30-53f1-849b-cde341b84907",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-09T05:56:00Z",
+      "total_paise": 10000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "a5e14c73-a09a-5f38-b149-94eefac5a5c3",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-09T06:04:00Z",
+      "total_paise": 40000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "e1341c19-04df-54ad-87fb-2e661cb3b8dd",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T03:00:00Z",
+      "total_paise": 13500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "f4ced6db-5cd2-5ae3-9e86-1715fa2599d2",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-10T03:08:00Z",
+      "total_paise": 8000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "f3d67435-ae6e-5add-9a34-c16e952ec7d5",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T03:16:00Z",
+      "total_paise": 4500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        }
+      ]
+    },
+    {
+      "id": "e5dbcb86-fc81-52b0-92e7-e46f5a4d4af1",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-10T03:24:00Z",
+      "total_paise": 25500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        }
+      ]
+    },
+    {
+      "id": "a5571b0d-ad13-5653-80d4-ec723e637daa",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T03:32:00Z",
+      "total_paise": 1500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "3c869bdf-7b6f-5f83-abce-cd879da9efbb",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-10T03:40:00Z",
+      "total_paise": 1500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "e403a725-9a97-5f97-9132-b47b11db5a1d",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T03:48:00Z",
+      "total_paise": 14000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "ebe325c9-8366-5f8e-84d6-bbe7d6730239",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-10T03:56:00Z",
+      "total_paise": 21000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        }
+      ]
+    },
+    {
+      "id": "3240a008-7708-58d2-81c6-298c1fbc6a07",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T04:04:00Z",
+      "total_paise": 5000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        }
+      ]
+    },
+    {
+      "id": "3cb8ca03-400d-54c3-8ba4-3532e348696f",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-10T04:12:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "7d965638-3f1e-5932-82e3-4e707401093e",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T04:20:00Z",
+      "total_paise": 31000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "59221f57-8fc8-53e9-a536-5466ad794029",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-10T04:28:00Z",
+      "total_paise": 7000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "7f682594-86b8-5d3b-bfd0-898c9974a961",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T04:36:00Z",
+      "total_paise": 2000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "e630f4cf-fc18-5aa0-8fea-3ad6e6a5b4e6",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-10T04:44:00Z",
+      "total_paise": 7000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "4e8890ce-4c37-551c-af65-e04e889a938b",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T04:52:00Z",
+      "total_paise": 13000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "a974d5e9-ae6b-5e8a-adf9-92c34a730e93",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-10T05:00:00Z",
+      "total_paise": 12000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "f4e8b4c4-1641-50ce-afb7-5512135ec177",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T05:08:00Z",
+      "total_paise": 16000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "d1bc1eb1-e5e1-5b1c-b15b-4e9fa1d1fd21",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-10T05:16:00Z",
+      "total_paise": 8000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "3beab624-3866-5855-95e6-f55f2b0394b5",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T05:24:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 4,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "d3ecae68-e86f-5a82-9f9f-471d264549aa",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-10T05:32:00Z",
+      "total_paise": 28000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "01baca23-3135-58c6-be1f-ce7e9b663b62",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T05:40:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "dab1f3b2-b0f9-5277-b630-9765b738f395",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-10T05:48:00Z",
+      "total_paise": 9000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "f9a69a96-a0d7-5617-8009-7410b840808a",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T05:56:00Z",
+      "total_paise": 21500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 4,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "1ef1bc84-1134-5ae6-92f0-436f211cccc3",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-10T06:04:00Z",
+      "total_paise": 22000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "b91d2425-575d-5041-af8a-d2de1a72c1bd",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T06:12:00Z",
+      "total_paise": 22000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 4,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "5e443520-0585-56dd-a6ff-876ba6127285",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-10T06:20:00Z",
+      "total_paise": 20000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 2,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "bd786eb3-b89e-5764-8463-4a9de3acd10a",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-10T06:28:00Z",
+      "total_paise": 8000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "595322f9-fa35-5a4c-b8d6-21be1b80df3a",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-10T06:36:00Z",
+      "total_paise": 4000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "7883e227-bd14-58ae-9e40-98d7c8188a4a",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-11T03:00:00Z",
+      "total_paise": 5500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "4ca53ac1-5305-5139-8bd9-82a34c906e1c",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-11T03:08:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "fc1f51a2-aba8-5de0-bc0e-c8bc2f43edab",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-11T03:16:00Z",
+      "total_paise": 9500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 10,
+          "item_name": "Fresh Lime Soda",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "22ceb0f4-789b-50c7-8867-405c20ad19f9",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-11T03:24:00Z",
+      "total_paise": 14000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 4,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "6cd707cb-3f96-5a39-8694-0a1037aa1aa1",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-11T03:32:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "2d4bbd9f-ef84-5833-a29d-317e72265ff1",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-11T03:40:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "9553bb16-80da-5d60-a58d-22e52cecf6d0",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-11T03:48:00Z",
+      "total_paise": 11500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "4c11c6c7-26a6-5c2f-8527-1b0803e1db05",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-11T03:56:00Z",
+      "total_paise": 16000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "53a62461-e95d-5d3c-8563-9a049d471bc1",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-11T04:04:00Z",
+      "total_paise": 7000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 2,
+          "unit_price_paise": 3500
+        }
+      ]
+    },
+    {
+      "id": "1c2ff4fe-2ecd-5f38-a139-a7f59e63acd0",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-11T04:12:00Z",
+      "total_paise": 12000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "847f060e-fa63-5d08-8e21-796d98ff2632",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-11T04:20:00Z",
+      "total_paise": 27000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 2,
+          "unit_price_paise": 3500
+        }
+      ]
+    },
+    {
+      "id": "4488b148-102e-533a-9da7-5ce5534e2e88",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-11T04:28:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "1f711582-d83c-51d0-86dc-4670fda81e4c",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-11T04:36:00Z",
+      "total_paise": 32000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 2,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "c599b84c-825c-53a8-a95b-0e5aebb0f577",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-11T04:44:00Z",
+      "total_paise": 8000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "d536e821-4b1e-5ef6-ace6-7d28326d6f3d",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-11T04:52:00Z",
+      "total_paise": 5000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        }
+      ]
+    },
+    {
+      "id": "059c3206-6766-52bf-9d2d-d3988c4cdf07",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-11T05:00:00Z",
+      "total_paise": 9000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        }
+      ]
+    },
+    {
+      "id": "83d05bb5-2f86-5a71-9c77-da420a3e5dd7",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-11T05:08:00Z",
+      "total_paise": 10000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        }
+      ]
+    },
+    {
+      "id": "0ad7d690-0344-5ab3-8197-9399621f5485",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-11T05:16:00Z",
+      "total_paise": 9000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 10,
+          "item_name": "Fresh Lime Soda",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "291f9c13-1d6c-5004-bbff-23bc1114c9e6",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-11T05:24:00Z",
+      "total_paise": 10000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "28808e96-5c8a-59bb-ae72-da9f834cc287",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-11T05:32:00Z",
+      "total_paise": 22500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "97a4fdf8-226e-5e6a-b4d8-a7fce0a97844",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-11T05:40:00Z",
+      "total_paise": 18000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 1,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "3a4c527c-46d0-5a94-a87b-0b02e32ee3c5",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-11T05:48:00Z",
+      "total_paise": 39000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "66007138-6818-5657-b66d-bb7246f78613",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T03:00:00Z",
+      "total_paise": 22000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 2,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "68599070-f466-520e-b715-3b744b79ec9d",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-12T03:08:00Z",
+      "total_paise": 4000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "ca2d9537-49f2-5c9b-889a-8a6fb06883dc",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T03:16:00Z",
+      "total_paise": 7000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "775f0424-83d3-50fa-87b9-2e07cbafe6b1",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-12T03:24:00Z",
+      "total_paise": 3500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        }
+      ]
+    },
+    {
+      "id": "00791a42-f6b6-57f6-bb09-fc5eed708260",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T03:32:00Z",
+      "total_paise": 7000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 1,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "ab2258ac-c18d-5574-a3a9-35bc8eb8afa6",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-12T03:40:00Z",
+      "total_paise": 5500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "9b88a060-3811-508d-a887-2ef79ba0bfaf",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T03:48:00Z",
+      "total_paise": 4000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "7f63d168-012b-54c9-9e34-b17a3b62f544",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-12T03:56:00Z",
+      "total_paise": 16000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "2a00c36a-358e-5a2a-9163-5044ac2f4276",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T04:04:00Z",
+      "total_paise": 26000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "4dcbc41c-eae1-5cf3-9e2b-8c56e5f874c6",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-12T04:12:00Z",
+      "total_paise": 17000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 1,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "1003cafc-c17f-54d4-b9da-a221c8ea22e1",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T04:20:00Z",
+      "total_paise": 12500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 1,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "d8f29009-29b9-52c2-b102-9b2e561ddcd1",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-12T04:28:00Z",
+      "total_paise": 20000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 10,
+          "item_name": "Fresh Lime Soda",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "e5ef4e4d-6476-503a-bb0d-28082dac97fe",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T04:36:00Z",
+      "total_paise": 11000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "e9903fc7-c897-537b-845b-2007bc1a4f8d",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-12T04:44:00Z",
+      "total_paise": 26000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "08f426bd-d874-5bc1-bab3-1e927a41e080",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T04:52:00Z",
+      "total_paise": 10000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 10,
+          "item_name": "Fresh Lime Soda",
+          "quantity": 1,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "f17d22fa-1197-5063-b027-d27a07ac67b0",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-12T05:00:00Z",
+      "total_paise": 8000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "e0f8ca42-b0e0-5141-bd9c-ef3464090e8c",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T05:08:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "03ac51be-0990-58ff-9389-e3917f5e81cd",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-12T05:16:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "f1973d8f-9782-507a-a1f3-9eb26e597b85",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T05:24:00Z",
+      "total_paise": 20000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "9d1bacc7-4fec-5860-acce-5ebb1e1ff791",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-12T05:32:00Z",
+      "total_paise": 9000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "2ff42995-76c4-5884-822b-a67b1b6227da",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T05:40:00Z",
+      "total_paise": 7000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 1,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "552c15f6-2697-5eb8-a71a-27cedacea96d",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-12T05:48:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "03a3c7b3-9951-5c74-a8c4-7d42bfeedbdc",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T05:56:00Z",
+      "total_paise": 5000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "8a06356a-5bcc-5103-bd68-04c575e6baba",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-12T06:04:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "7ea6208d-cae2-5a29-bd61-9d027a44940b",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T06:12:00Z",
+      "total_paise": 5500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "4d83ddbc-dbc4-5552-8117-a6618aefaa13",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-12T06:20:00Z",
+      "total_paise": 26000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "08377cff-9fc3-5dbc-b97b-2d06491ff168",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T06:28:00Z",
+      "total_paise": 10000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 1,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "fe2f169d-7c2b-5103-a031-0caab0898edd",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-12T06:36:00Z",
+      "total_paise": 16000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 2,
+          "unit_price_paise": 3500
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "0c2a38b9-d1ae-5755-8733-b2e2868c6aba",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T06:44:00Z",
+      "total_paise": 23500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "9bd48040-a59b-5a43-8776-142e8c93a158",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-12T06:52:00Z",
+      "total_paise": 29000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "b62e4c64-5634-58a6-885a-e02ba0fd96ed",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T07:00:00Z",
+      "total_paise": 32000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 4,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "0379a8b2-d306-5ed6-b476-e519e99c6cc6",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-12T07:08:00Z",
+      "total_paise": 21000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "6a00de7f-bb76-5602-9e5d-569ea66629e0",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T07:16:00Z",
+      "total_paise": 14500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        }
+      ]
+    },
+    {
+      "id": "c44013d3-32bc-5fe0-983e-406e6f5cfd05",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-12T07:24:00Z",
+      "total_paise": 19000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 1,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "78398d5a-247d-56a0-af48-3ad3a00ce45b",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-12T07:32:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 1,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "cbd640b5-c066-5fa9-9ebe-b9666f34ffd6",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T03:00:00Z",
+      "total_paise": 19000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "65103336-ce11-520b-ad7b-877787fdf761",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-13T03:08:00Z",
+      "total_paise": 20000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "170faad1-65e7-59cf-b989-48f40815b631",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T03:16:00Z",
+      "total_paise": 15000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "29ef16b0-bbdb-5067-aeef-5741fc8607b9",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-13T03:24:00Z",
+      "total_paise": 14000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "b4dd9cf1-5b82-5f1e-ab00-1b96df0de19a",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T03:32:00Z",
+      "total_paise": 29000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "a137dff4-c1f1-5fd3-ae46-f07f0e7081e2",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-13T03:40:00Z",
+      "total_paise": 9500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "41e2cef0-ec7c-5322-b4de-92a82b03c55b",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T03:48:00Z",
+      "total_paise": 25000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 1,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "42b9f03e-132f-51d9-af9b-3f549668e300",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-13T03:56:00Z",
+      "total_paise": 8000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "89ae44b4-f309-5022-bc9d-291475ec7873",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T04:04:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "fd855993-7129-5d72-9f7f-5ab446ed29fd",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-13T04:12:00Z",
+      "total_paise": 25000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "e52e6859-5b5b-5a14-8d66-042cd1608e00",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T04:20:00Z",
+      "total_paise": 2000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "6b22a8a7-7464-5e78-853b-b94ee806712d",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-13T04:28:00Z",
+      "total_paise": 10500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 10,
+          "item_name": "Fresh Lime Soda",
+          "quantity": 1,
+          "unit_price_paise": 3000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "bb9bdc29-3826-5ee4-a625-0e6d594e1627",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T04:36:00Z",
+      "total_paise": 16000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 4,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "a6eca2a9-9c4f-5e20-9a04-eb28a6df9179",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-13T04:44:00Z",
+      "total_paise": 23000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "f43b4df1-d1d5-5eed-843c-c97183b9a520",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T04:52:00Z",
+      "total_paise": 4000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "6a234a43-91f6-5679-b277-66508bd4f15c",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-13T05:00:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 1,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "69b466bd-8d3d-5977-a7b7-c4a0e02d4263",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T05:08:00Z",
+      "total_paise": 21500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "34f65c7c-5810-5b75-8be9-3468c9e86b5b",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-13T05:16:00Z",
+      "total_paise": 12000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "6dc3efe3-c4e6-5bd9-8a7a-4c3186f8e870",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T05:24:00Z",
+      "total_paise": 4000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "66f6035f-eef0-5a39-be53-0162c5c43081",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-13T05:32:00Z",
+      "total_paise": 7000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "1506f465-05b5-5320-bb24-c3f182fd959a",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T05:40:00Z",
+      "total_paise": 4500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        }
+      ]
+    },
+    {
+      "id": "834e3f8b-00fa-59a1-8b77-e990eaa72caf",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-13T05:48:00Z",
+      "total_paise": 32000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "1699b3c0-10cc-5796-b5a6-d809d1f3c9d7",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T05:56:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "85da25d9-9f8b-5cf4-b741-dcff2516f903",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-13T06:04:00Z",
+      "total_paise": 16000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "04b99b97-a6bc-5cf3-939b-0a13b8588ba7",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T06:12:00Z",
+      "total_paise": 5000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        }
+      ]
+    },
+    {
+      "id": "4f1db40d-6a64-5fab-a8e9-5d99805437b5",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-13T06:20:00Z",
+      "total_paise": 10000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 10,
+          "item_name": "Fresh Lime Soda",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "4deb2ac6-408f-567f-bc08-01240b887198",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T06:28:00Z",
+      "total_paise": 20000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "f4075515-c20d-5783-9a01-8c0f2dc36a33",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-13T06:36:00Z",
+      "total_paise": 13000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 2,
+          "unit_price_paise": 3500
+        },
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "d7f2a6c0-0459-5924-a7cb-f4383ec8f388",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-13T06:44:00Z",
+      "total_paise": 15000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "b69fee18-63d4-56fe-b4cb-a6440534f904",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T03:00:00Z",
+      "total_paise": 13000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "9d3b8a15-f1be-52f3-aa1a-d2297556be19",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-14T03:08:00Z",
+      "total_paise": 24000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "62965848-b654-5d90-88ee-8a631074985d",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T03:16:00Z",
+      "total_paise": 9500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        }
+      ]
+    },
+    {
+      "id": "74fb46b0-61b6-537f-8717-508de1f931a6",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-14T03:24:00Z",
+      "total_paise": 5000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        }
+      ]
+    },
+    {
+      "id": "ce68bc8c-ae50-5db2-8b4b-dc29bbe75ac8",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T03:32:00Z",
+      "total_paise": 9500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        }
+      ]
+    },
+    {
+      "id": "ee784948-a1e2-5766-b2ad-471bbc1dc129",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-14T03:40:00Z",
+      "total_paise": 11500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "f9bacf4c-c5d6-5e79-9081-0e93301f93a6",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T03:48:00Z",
+      "total_paise": 24000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "7207dcd6-7c2d-5bf2-96d0-10ab26ab6e57",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-14T03:56:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 10,
+          "item_name": "Fresh Lime Soda",
+          "quantity": 1,
+          "unit_price_paise": 3000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "a89e9795-3e16-5bea-877e-85f04b90c4b9",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T04:04:00Z",
+      "total_paise": 3500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        }
+      ]
+    },
+    {
+      "id": "0f2d2f72-4840-59b2-9723-d9d7dc43ce9d",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-14T04:12:00Z",
+      "total_paise": 11500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "b933dbf8-0a0e-5b3f-a236-4f090383700e",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T04:20:00Z",
+      "total_paise": 9000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "32ed7e69-c123-5231-8039-f6b5fff5f977",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-14T04:28:00Z",
+      "total_paise": 15500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "4cee7f82-7e32-5e9c-bbb2-f71abef36d36",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T04:36:00Z",
+      "total_paise": 8000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "17f79638-8cdc-5af1-b798-50d8f7dead8a",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-14T04:44:00Z",
+      "total_paise": 12000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "d09ad1a4-8f67-55ef-ae3f-7238fefd835c",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T04:52:00Z",
+      "total_paise": 10000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 1,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "3b916b69-c00f-524b-97c6-b025fd8d48df",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-14T05:00:00Z",
+      "total_paise": 4500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        }
+      ]
+    },
+    {
+      "id": "da765c7a-2e78-5569-b4be-c73d32f4e818",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T05:08:00Z",
+      "total_paise": 25000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "fc0a6875-032d-5f78-874a-5a0d10bc38cc",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-14T05:16:00Z",
+      "total_paise": 4000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "b8a8ad6f-c45c-5f80-8c18-a1a36ac90c54",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T05:24:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "68a844cc-b9d3-5019-8289-51b58c0b3e9a",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-14T05:32:00Z",
+      "total_paise": 11000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "3fc8d559-a6a7-5eaf-b42e-c64106937c47",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T05:40:00Z",
+      "total_paise": 12500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "ab13e983-bdb1-500a-aed2-592a761adc00",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-14T05:48:00Z",
+      "total_paise": 13000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "0c2f750d-f909-5817-8068-8aed7b2dbcc2",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T05:56:00Z",
+      "total_paise": 16000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "3a2c4f2d-f51f-58c6-af9c-f64e5a7cfc04",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-14T06:04:00Z",
+      "total_paise": 12000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "b9e4a119-650b-56d2-a8ee-e777d2ed4bad",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T06:12:00Z",
+      "total_paise": 22000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 1,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "241bda28-ed04-5c92-b81b-8711f33a5d2f",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-14T06:20:00Z",
+      "total_paise": 4000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "8f355874-6f0a-5b83-b884-d11a137c8baf",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T06:28:00Z",
+      "total_paise": 4000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "2511d015-bc1d-5e89-bb43-37ff288e2dce",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-14T06:36:00Z",
+      "total_paise": 13000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "451244ff-db9e-541b-a5ea-3dc359f47c68",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T06:44:00Z",
+      "total_paise": 17500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "34546600-56ab-579a-8c93-ea28e412b543",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-14T06:52:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "28e10344-36bf-5a00-beb3-cc18306d8005",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T07:00:00Z",
+      "total_paise": 46000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "2e69a115-fb3d-5f88-a887-5b4738f2dc04",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-14T07:08:00Z",
+      "total_paise": 27000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 1,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "994514eb-bfaa-5bbd-a485-eb359b5a064d",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T07:16:00Z",
+      "total_paise": 3500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "56f97acd-7fe5-5b0b-8947-a812d246bb20",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-14T07:24:00Z",
+      "total_paise": 23000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "c49b00de-f525-5f22-a543-19a7a450514f",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T07:32:00Z",
+      "total_paise": 23500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 2,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "ff457908-c9f2-5eeb-9732-4d7ceedce859",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-14T07:40:00Z",
+      "total_paise": 9500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "bbaf487a-93ef-5622-8180-11a2f1fda954",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T07:48:00Z",
+      "total_paise": 16000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "05dfb51b-d564-5813-bc89-2393426b6e40",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-14T07:56:00Z",
+      "total_paise": 17500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "699308a4-43c6-5538-99ba-bebb7b47421b",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-14T08:04:00Z",
+      "total_paise": 5000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "04311f31-e6f7-58e4-adaa-dbb2f1681941",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T03:00:00Z",
+      "total_paise": 26000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 2,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "79e0f911-cbfe-5498-9cbe-492cabc7131c",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-15T03:08:00Z",
+      "total_paise": 14000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "686c0620-9d47-59b7-a1ed-e13adb59fd81",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T03:16:00Z",
+      "total_paise": 5500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "bdf561c1-e4c7-5a93-b263-e898e2bcd04f",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-15T03:24:00Z",
+      "total_paise": 19000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "696bbb5d-6eda-54c1-bf77-9bbdcb2748ed",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T03:32:00Z",
+      "total_paise": 27000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 1,
+          "unit_price_paise": 3000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "43743d29-08c7-547f-b77a-e7f643fd863c",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-15T03:40:00Z",
+      "total_paise": 14500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "48068353-748b-53c9-bb6a-0f07160aebde",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T03:48:00Z",
+      "total_paise": 16000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "1a200e8b-bb41-5808-a2a2-2e8cb53e1ec6",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-15T03:56:00Z",
+      "total_paise": 5000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        }
+      ]
+    },
+    {
+      "id": "dff62ac6-2fd7-5ffd-a88b-e6646bf5f3c3",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T04:04:00Z",
+      "total_paise": 20000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "c581600c-3709-5c46-8176-fc293f599e0c",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-15T04:12:00Z",
+      "total_paise": 13500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "37e37fcd-9247-598e-811f-e9d2c8adac8c",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T04:20:00Z",
+      "total_paise": 22000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "346b8ced-5e2f-510c-876f-9cc7b8c74742",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-15T04:28:00Z",
+      "total_paise": 30000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "6dd3c1c1-1b19-59e8-9d90-30eefa97d7bf",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T04:36:00Z",
+      "total_paise": 1500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "6a3fdd7e-177c-5808-8d49-7476bdbe31f7",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-15T04:44:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "2e10ad1a-c4bd-51bb-8c32-a9f98da37f1d",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T04:52:00Z",
+      "total_paise": 8000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "b414a37e-4f3b-5ee0-a510-f1cce46a76d6",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-15T05:00:00Z",
+      "total_paise": 11000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "f1d0ba0f-d45b-5d21-82f3-59d84fcf0ccc",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T05:08:00Z",
+      "total_paise": 22000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "10c32d02-0518-5ad5-90f0-43ea0796909f",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-15T05:16:00Z",
+      "total_paise": 11500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 1,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "3d8f3c9e-c977-5284-956e-a478c3a6948c",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T05:24:00Z",
+      "total_paise": 20000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "9ba4e7fb-b5c2-5f35-96fb-b0173bfdcb5a",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-15T05:32:00Z",
+      "total_paise": 15000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 2,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "3bd987be-276e-537a-9be7-30f04bda8c7d",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T05:40:00Z",
+      "total_paise": 24000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 4,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "6b08545e-ac7e-5285-9f36-d129a0431dfb",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-15T05:48:00Z",
+      "total_paise": 12000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 4,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "b1a168df-c17a-54df-b81c-bc48869ff584",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T05:56:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 12,
+          "item_name": "Gulab Jamun",
+          "quantity": 2,
+          "unit_price_paise": 3000
+        }
+      ]
+    },
+    {
+      "id": "542acedf-09d8-57c8-b04c-76e1d1040cda",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-15T06:04:00Z",
+      "total_paise": 3500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 11,
+          "item_name": "Poha",
+          "quantity": 1,
+          "unit_price_paise": 3500
+        }
+      ]
+    },
+    {
+      "id": "3244c969-0d32-511a-b4ba-368999b3a67f",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T06:12:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 3,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "1a849efa-bdfa-5f60-8044-c9bc631caf61",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-15T06:20:00Z",
+      "total_paise": 7500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "e7990c20-3e35-5fe0-9e5e-f5c58f5d7f7d",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T06:28:00Z",
+      "total_paise": 22500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 2,
+          "unit_price_paise": 8000
+        }
+      ]
+    },
+    {
+      "id": "ab2e0530-aaeb-57e7-a1d4-fbb8fd435f84",
+      "customer_name": "Student 063",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-15T06:36:00Z",
+      "total_paise": 5000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        }
+      ]
+    },
+    {
+      "id": "37284ebf-f53b-5123-ab07-5aa6ff7fe961",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T06:44:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "dc8a0d11-37c6-5470-a350-9cfc8286638d",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-15T06:52:00Z",
+      "total_paise": 1500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "15635c72-285a-5f01-8ac1-6f62acd6e3aa",
+      "customer_name": "Walk-in",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T07:00:00Z",
+      "total_paise": 21000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 1,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 2,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 1,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "1e7063e6-bd14-5304-bd2f-37cbd856b96a",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-15T07:08:00Z",
+      "total_paise": 8000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 5,
+          "item_name": "Idli Sambar",
+          "quantity": 2,
+          "unit_price_paise": 4000
+        }
+      ]
+    },
+    {
+      "id": "772ff056-bda9-5d26-aa7f-ff7a2d1e412a",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T07:16:00Z",
+      "total_paise": 34000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Veg Fried Rice",
+          "quantity": 1,
+          "unit_price_paise": 8000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "c2cbded9-fd42-5caa-9031-180b7ae92004",
+      "customer_name": "Student 093",
+      "order_type": "Takeaway",
+      "payment_method": "Cash",
+      "created_at": "2026-11-15T07:24:00Z",
+      "total_paise": 26000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "b9d9f06c-f84e-546c-9150-a9ad6e52dc6d",
+      "customer_name": "Faculty",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T07:32:00Z",
+      "total_paise": 32000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 8,
+          "item_name": "Cold Coffee",
+          "quantity": 2,
+          "unit_price_paise": 5000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Veg Thali",
+          "quantity": 2,
+          "unit_price_paise": 10000
+        }
+      ]
+    },
+    {
+      "id": "27a8d1d4-eb2d-5c35-b39e-cebe83c9fec8",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "Card",
+      "created_at": "2026-11-15T07:40:00Z",
+      "total_paise": 10000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        },
+        {
+          "item_id": 6,
+          "item_name": "Paneer Wrap",
+          "quantity": 1,
+          "unit_price_paise": 7000
+        }
+      ]
+    },
+    {
+      "id": "77e7286f-dcfc-54d0-b382-58bbb8768ee7",
+      "customer_name": "Student 033",
+      "order_type": "Takeaway",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T07:48:00Z",
+      "total_paise": 11000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 2,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 2,
+          "item_name": "Samosa",
+          "quantity": 1,
+          "unit_price_paise": 2000
+        }
+      ]
+    },
+    {
+      "id": "f22544e9-f71b-5743-b5af-0aa51fb8a7ce",
+      "customer_name": "Student 063",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-15T07:56:00Z",
+      "total_paise": 3000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "7a0625a0-ff08-5bad-a273-a8ff2c5f6818",
+      "customer_name": "Student 093",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T08:04:00Z",
+      "total_paise": 6000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "990dc49a-a30b-5619-b8bf-9e60d3bcb625",
+      "customer_name": "Faculty",
+      "order_type": "Takeaway",
+      "payment_method": "Card",
+      "created_at": "2026-11-15T08:12:00Z",
+      "total_paise": 24000,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 4,
+          "unit_price_paise": 6000
+        }
+      ]
+    },
+    {
+      "id": "03d5d061-bda2-5c81-99bf-b5fb37541d7b",
+      "customer_name": "Walk-in",
+      "order_type": "Dine-in",
+      "payment_method": "UPI",
+      "created_at": "2026-11-15T08:20:00Z",
+      "total_paise": 7500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Masala Dosa",
+          "quantity": 1,
+          "unit_price_paise": 6000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 1,
+          "unit_price_paise": 1500
+        }
+      ]
+    },
+    {
+      "id": "dac00ac4-76cc-5847-bec6-1b9ef37d5b19",
+      "customer_name": "Student 033",
+      "order_type": "Dine-in",
+      "payment_method": "Cash",
+      "created_at": "2026-11-15T08:28:00Z",
+      "total_paise": 7500,
+      "is_demo": 1,
+      "items": [
+        {
+          "item_id": 9,
+          "item_name": "Veg Sandwich",
+          "quantity": 1,
+          "unit_price_paise": 4500
+        },
+        {
+          "item_id": 4,
+          "item_name": "Masala Chai",
+          "quantity": 2,
+          "unit_price_paise": 1500
+        }
+      ]
+    }
+  ]
+}
